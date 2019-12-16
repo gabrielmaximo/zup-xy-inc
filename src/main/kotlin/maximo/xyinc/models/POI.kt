@@ -5,4 +5,4 @@ import javax.persistence.GeneratedValue
 import javax.persistence.Id
 
 @Entity
-class POI (@Id @GeneratedValue val id: Long = 0L, val name: String, val x: Double, val y: Double)
+class POI (@Id @GeneratedValue val id: Long = 0L, val name: String, val x: Int, val y: Int)

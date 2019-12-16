@@ -18,8 +18,15 @@ class POIController {
 
     @PostMapping("/create")
     fun store(@RequestBody poi: POI): POI {
+//        val poiExists: POI = poiRepository.findPOIByNameAndXAndY(poi.name, poi.x, poi.y)
+//
+//        if(poiExists != emptyList<POI>().toList()) {
+//            return error("POI already exists!")
+//        }
+
         return poiRepository.save(poi)
     }
 
 }
+
 
