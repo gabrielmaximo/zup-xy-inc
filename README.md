@@ -1,5 +1,13 @@
 # :cyclone: Desafio Backend Zup - XY Inc - GPS
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gabrielmaximo/zup-xy-inc.svg">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gabrielmaximo/zup-xy-inc.svg">
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
 ## :clipboard: Documentação
 
 ### :arrows_counterclockwise: Rota para cadastro de um novo POI (Ponto de Interesse)
