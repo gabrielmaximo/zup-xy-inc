@@ -18,6 +18,7 @@ class POIController {
 
     @PostMapping("/create")
     fun store(@RequestBody poi: POI): POI {
+        // tentativa de fazer uma validação, caso um POI ja exista, porém nao consegui dar um response 400, apeneas consigo disparar um 500
 //        val poiExists: POI = poiRepository.findPOIByNameAndXAndY(poi.name, poi.x, poi.y)
 //
 //        if(poiExists != emptyList<POI>().toList()) {

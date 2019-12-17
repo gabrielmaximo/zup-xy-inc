@@ -29,13 +29,6 @@ class ProximityController {
             }
         }
 
-        //response = p.map {
-        //    var dist = sqrt(Math.pow((x - it.x).toDouble()) + Math.pow(((y - it.y).toDouble())))
-        //    if (dist <= d) {
-        //        it
-        //    }
-        //}
-
         return response
     }
 
