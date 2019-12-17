@@ -100,11 +100,11 @@
 * Basta clonar o repositório, instalar as dependências (eu utilizei o maven para gerenciar as dependências), abrir o repositório pelo IntelliJ IDEA (eu utilizei a versão Ultimate Edition) e rodar a aplicação pelo arquivo XyIncApplication.kt que esta dentro de ```./src/main/kotlin/maximo/xyinc```. Simples assim!
 
 ## :floppy_disk: Base de Dados
-* Eu utilizei o HSQL como banco de dados no projeto, pois ele é feito totalmente em Java e simples de utilizar dentro do projeto em questão, o que facilita na hora de rodar o projeto localmente para testar a aplicação
+* Eu utilizei o HSQL como banco de dados, pois ele é feito totalmente em Java e simples de utilizar, o que facilita na hora de rodar o projeto localmente para testar a aplicação
 
 ## :muscle: Dificuldades resumo e aprendizado sobre o desafio
 * Como tenho pouca experiência com desenvolvimento de web services utilizando kotlin e spring boot então consultei alguns materiais que me ajudaram bastante.
 * Consultei primeiramente a [documentação oficial](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html) do kotlin para obter mais informações sobre REST API com spring boot e encontrei um tutorial ótimo!
 * Em seguida busquei formas de faze uma conexão com algum DB popular como postgreSQL ou MySQL porém me deparei com o HSQL que se encaixou perfeitamente e facilitou muito o desenvolvimento
 * Por último, um tutorial brasileiro que me ajudou bastante a entender como funciona a arquitetura dentro do kotlin foi a [Medium](https://medium.com/collabcode/criando-um-web-service-base-no-spring-boot-com-kotlin-962a51317d63)
-* Tive problemas para usar o tipo Unisgned Int (UInt) do kotlin para inteiros não negativos conforme solicitado no deasfio, então optei pelo tipo Int para manter a aplicação funcionando
+* Tive problemas para usar o tipo Unisgned Int (UInt) do kotlin para inteiros não negativos conforme solicitado no deasfio, então optei pelo tipo Int para manter a aplicação funcionando. Além desse pecado, talvez meu codigo não esteja escrito da melhor maneira e na melhor performance, isso se deve ao fato de que eu estou dando meus primeiros passos no framework spring boot e na linguagem kotlin, eu venho do javascript com node.js, mas aprendi bem rapido em um final de semana bastante coisa a ponto de deixar o projeto no rodando, esse desafio foi um aprendizado surreal!
