@@ -103,7 +103,7 @@
 * Eu utilizei o HSQL como banco de dados, pois ele é feito totalmente em Java e simples de utilizar, o que facilita na hora de rodar o projeto localmente para testar a aplicação
 
 ## :muscle: Dificuldades resumo e aprendizado sobre o desafio
-* Como tenho pouca experiência com desenvolvimento de web services utilizando kotlin e spring boot então consultei alguns materiais que me ajudaram bastante.
+* Como tenho pouca experiência com desenvolvimento de API's REST utilizando kotlin e spring boot então consultei alguns materiais que me ajudaram bastante.
 * Consultei primeiramente a [documentação oficial](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html) do kotlin para obter mais informações sobre REST API com spring boot e encontrei um tutorial ótimo!
 * Em seguida busquei formas de faze uma conexão com algum DB popular como postgreSQL ou MySQL porém me deparei com o HSQL que se encaixou perfeitamente e facilitou muito o desenvolvimento
 * Por último, um tutorial brasileiro que me ajudou bastante a entender como funciona a arquitetura dentro do kotlin foi a [Medium](https://medium.com/collabcode/criando-um-web-service-base-no-spring-boot-com-kotlin-962a51317d63)
