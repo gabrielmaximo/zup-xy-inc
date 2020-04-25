@@ -104,9 +104,9 @@
 
 ## :muscle: Dificuldades resumo e aprendizado sobre o desafio
 * Como tenho pouca experiência com desenvolvimento de API's REST utilizando kotlin e spring boot então consultei alguns materiais que me ajudaram bastante.
-* Consultei primeiramente a [documentação oficial](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html) do kotlin para obter mais informações sobre REST API com spring boot e encontrei um tutorial ótimo!
-* Em seguida busquei formas de faze uma conexão com algum DB popular como postgreSQL ou MySQL porém me deparei com o HSQL que se encaixou perfeitamente e facilitou muito o desenvolvimento
-* Por último, um tutorial brasileiro que me ajudou bastante a entender como funciona a arquitetura dentro do kotlin foi a [Medium](https://medium.com/collabcode/criando-um-web-service-base-no-spring-boot-com-kotlin-962a51317d63)
+* Consultei primeiramente a [documentação oficial](https://kotlinlang.org/docs/tutorials/spring-boot-restful.html) do kotlin para obter mais informações sobre algumas peculiaridades linguagem.
+* Em seguida busquei formas de fazer uma conexão com algum DB popular como postgreSQL ou MySQL porém me deparei com o HSQL que se encaixou perfeitamente e facilitou muito o desenvolvimento, não precisando de um docker ou a instalaço de um banco localmente.
+* Por último, um tutorial brasileiro que me ajudou bastante a entender como funciona a arquitetura dentro do kotlin com spring foi a [Medium](https://medium.com/collabcode/criando-um-web-service-base-no-spring-boot-com-kotlin-962a51317d63)
 * Tive problemas para usar o tipo Unisgned Int (UInt) do kotlin para inteiros não negativos conforme solicitado no deasfio, então optei pelo tipo Int para manter a aplicação funcionando. 
 * Além desse pecado, talvez meu codigo não esteja escrito da melhor maneira e na melhor performance, isso se deve ao fato de que eu estou dando meus primeiros passos no framework spring boot e na linguagem kotlin, eu venho do javascript com node.js, mas aprendi bem rapido em apenas um final de semana, a tal ponto de conseguir rodar a aplicação e conseguir o retorno desejado. 
-* Em suma, esse desafio, pra mim, foi um aprendizado surreal! Sei que as boas práticas são o coração do desenvolvimento de software, ainda mais quando se trata de trabalho em equipe, espero poder melhorar essas práticas com vocês.
+* Em suma, esse desafio, pra mim, foi um aprendizado surreal! Sei que as boas práticas são o coração do desenvolvimento de software, ainda mais quando se trata do backend e trabalho em equipe, espero poder melhorar essas práticas com vocês.
